@@ -1,2 +1,5 @@
 # QX-Research
 
+
+By QualitaX 
+
