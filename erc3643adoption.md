@@ -102,7 +102,7 @@ _Step 3: Establish what to track_
 **Tokeny T-REX Factory ENS Name:** erc3643.eth </br>
 **Tokeny T-REX Factory Contract address:** 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8
 
-#### 2.2.2.2 Ethereum Mainnet
+#### 2.2.1.1 Ethereum Mainnet
 
 **Data source:** Ethereum Blockchain - BigQuery Public Dataset </br>
 **Dataset ID:** bigquery-public-data.goog_blockchain_ethereum_mainnet_us
@@ -180,7 +180,7 @@ ORDER BY date desc;
 
 
 
-#### Polygon
+#### 2.2.1.2 Polygon
 
 ### Avalanche Ecosystem
 
