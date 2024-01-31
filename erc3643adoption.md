@@ -122,11 +122,8 @@ AND input
 
 ```
 
-ENS Name: erc3643.eth </br>
-Contract address: 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8
-
-Function to create contract: 0x60806040 </br>
-input: 0x6080604052600061001 </br>
+Tokeny T-REX Factory ENS Name: erc3643.eth </br>
+Tokeny T-REX Factory Contract address: 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8
 
 
 However not all ERC3643-compliant contracts are necessarily deployed by the Tokeny T-REX Factory. </br>
