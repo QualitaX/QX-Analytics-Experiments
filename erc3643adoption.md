@@ -85,7 +85,7 @@ _Step 3: Establish what to track_
 
 | Metric                                      | Description                                                                                                                                 |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Number of Deployed Contracts                | Count of smart contracts on the Ethereum Mainnet that are verified to implement the ERC3643 standard.                                       |
+| Number of Deployed Contracts                | Count of smart contracts on the Ethereum Mainnet, Polygon Mainnet and Avalanche that are verified to implement the ERC3643 standard.                                       |
 | Volume of transactions                      | The total number and value of transactions interacting with ERC3643-compliant contracts.                                                    |
 | Active Users or Wallets                     | Number of unique wallets that have interacted with ERC3643 contracts over a given period.                                                   |
 | Growth Rate of ERC3643 Contract Deployments | Rate at which new ERC3643-compliant contracts are being deployed over time.                                                                 |
