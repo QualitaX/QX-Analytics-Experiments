@@ -109,7 +109,7 @@ input: 0x6080604052600061001 </br>
 N# of contracts created by the Tokeny T-REX Factory on the Ethereum Mainnet.</br>
 
 
-<img src="https://i.imgur.com/5r0eh6L.png" alt="N# of Contracts Created by the Tokeny T-REX Factory" width="150"/>
+<img src="https://i.imgur.com/5r0eh6L.png" alt="N# of Contracts Created by the Tokeny T-REX Factory" width="475"/>
 
 
 ``` 
