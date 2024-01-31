@@ -99,15 +99,7 @@ _Step 3: Establish what to track_
 
 _Step 1: Find all contracts created from the Tokeny T-Rex Factory_
 
-ENS Name: erc3643.eth </br>
-Contract address: 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8
-
-Function to create contract: 0x60806040 </br>
-input: 0x6080604052600061001 </br>
-
-
-N# of contracts created by the Tokeny T-REX Factory on the Ethereum Mainnet.</br>
-
+As of 31 Jan 2024 - 39 contracts created by the Tokeny T-REX Factory on the Ethereum Mainnet.</br>
 
 <img src="https://i.imgur.com/5r0eh6L.png" alt="N# of Contracts Created by the Tokeny T-REX Factory" width="475"/>
 
@@ -121,7 +113,12 @@ input="0x608060405260006100176001600160e01b0361006616565b600080546001600160a01b0
 
 ```
 
-_As of 31 Jan 2024 - 39 contracts created by the Tokeny T-REX Factory in total._ </br>
+ENS Name: erc3643.eth </br>
+Contract address: 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8
+
+Function to create contract: 0x60806040 </br>
+input: 0x6080604052600061001 </br>
+
 
 However not all ERC3643-compliant contracts are necessarily deployed by the Tokeny T-REX Factory. </br>
 
