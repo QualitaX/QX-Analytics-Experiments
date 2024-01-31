@@ -186,6 +186,9 @@ ORDER BY date desc;
 
 #### 2.2.1.2 Polygon
 
+**Data source:** Polygon Cryptocurrency - BigQuery Public Dataset </br>
+**Dataset ID:** public-data-finance.crypto_polygon
+
 ### Avalanche Ecosystem
 
 # Acknowledgements
