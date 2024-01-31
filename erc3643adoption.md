@@ -1,5 +1,6 @@
 ---
 title: "Tracking the Adoption of ERC3643"
+Status: Draft v1
 date: "2024-01-29"
 ---
 
