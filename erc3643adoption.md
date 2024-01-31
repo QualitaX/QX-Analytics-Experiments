@@ -142,7 +142,7 @@ input="0x608060405260006100176001600160e01b0361006616565b600080546001600160a01b0
 
 The above only return 1 transaction - What is the Tokeny: T-REX Servicing - see: 0x670ac37a1f420f3ea18b87aa06a5b7134b75578094d7fa93a3c4e6d10183e4b1 ?
 
-DO NOT RUN THE BELOW AS-IS EXPENSIVE AND NOT OPTIMIZED.
+DO NOT RUN THE BELOW QUERY AS-IS  - EXPENSIVE AND NOT OPTIMIZED.
 ``` 
 
 SELECT date(block_timestamp) as date, transaction_hash, to_address, value, input
