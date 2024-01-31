@@ -106,7 +106,7 @@ Function to create contract: 0x60806040 </br>
 input: 0x6080604052600061001 </br>
 
 
-How many contracts created by the Tokeny T-REX Factory.</br>
+N# of contracts created by the Tokeny T-REX Factory on the Ethereum Mainnet.</br>
 
 
 <img src="https://i.imgur.com/5r0eh6L.png" alt="N# of Contracts Created by the Tokeny T-REX Factory"/>
