@@ -12,7 +12,7 @@ This dashboard aims at providing visibility and transparency into the adoption o
 
 Do you want to know more about the ERC3643, read our deep dive: [link to deep dive]().
 
-# Why Does Tracking ERC3643 On-Chain activities Matter?
+# 1. Why Does Tracking ERC3643 On-Chain activities Matter?
 
 Tracking ERC3643 on-chain activities is essential for maintaining transparency, ensuring regulatory compliance, providing market insights, enhancing security, managing assets effectively, facilitating interoperability, and simplifying auditing and reporting processes.
 
@@ -28,9 +28,9 @@ The purpose of this dashboard is to focus on tracking the adoption of ERC3643 fo
 
 **Investor Interest and Market Dynamics:** Tracking adoption can shed light on investor interest and confidence in tokenized assets. A rising adoption rate might indicate a bullish market sentiment, while stagnation or decline could signal issues or lack of confidence in the market.
 
-# Building the ERC3643 Adoption Tracker
+# 2. Building the ERC3643 Adoption Tracker
 
-## Our Approach
+## 2.1 Our Approach
 
 _Step 1: Understand the IERC3643 interface and its events._
 
@@ -89,9 +89,9 @@ _Step 3: Establish what to track_
 | Contract Function Usage Frequency           | Frequency of specific function calls within ERC3643 contracts, such as transfer functions, compliance checks, or identity registry updates. |
 | Number of recovered tokens                  | -                                                                                                                                           |
 
-## Data Exploration & Analysis
+## 2.2 Data Exploration & Analysis
 
-### Ethereum Ecosystem
+### 2.2.1 Ethereum Ecosystem
 
 | Method/Function   | Input |
 | -------- | ------- |
@@ -102,7 +102,7 @@ _Step 3: Establish what to track_
 **Tokeny T-REX Factory ENS Name:** erc3643.eth </br>
 **Tokeny T-REX Factory Contract address:** 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8
 
-#### Ethereum Mainnet
+#### 2.2.2.2 Ethereum Mainnet
 
 **Data source:** Ethereum Blockchain - BigQuery Public Dataset </br>
 **Dataset ID:** bigquery-public-data.goog_blockchain_ethereum_mainnet_us
