@@ -11,7 +11,6 @@ Author: Anaïs Ofranc
 
  - [1. Introduction](#item-one)
  - [2. Data Exploration & Analysis](#item-two)
- - [2. Data Exploration & Analysis](#item-two)
  - [2.1 Our Approach](#item-two)
  - [2.2 Ethereum Ecosystem](#item-two)
  - [2.2.1 Ethereum Mainnet](#item-two)
@@ -19,7 +18,7 @@ Author: Anaïs Ofranc
  - [2.3 Avalanche Ecosystem](#item-two)
  - [3. Building the ERC3643 Adoption Tracker](#item-three)
 
- - 
+
 # 1. Introduction
 
 Tracking on-chain activities associated with the ERC3643 standard can be a challenging task. The adoption of ERC standards, especially those related to regulated securities like ERC3643, might be less widespread and more specialized, making them a bit harder to find. Tracking the adoption requires a deep understanding of the underlying specifications and its requirements, the ability to process, unify and analyze large amounts of data across different EVM chains.
