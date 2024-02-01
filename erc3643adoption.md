@@ -31,7 +31,7 @@ The purpose of this dashboard is to focus on tracking the adoption of ERC3643 fo
 
 **Investor Interest and Market Dynamics:** Tracking adoption can shed light on investor interest and confidence in tokenized assets. A rising adoption rate might indicate a bullish market sentiment, while stagnation or decline could signal issues or lack of confidence in the market.
 
-# 2. Building the ERC3643 Adoption Tracker
+# 2. Data Exploration & Analysis
 
 ## 2.1 Our Approach
 
@@ -92,9 +92,7 @@ _Step 3: Establish what to track_
 | Contract Function Usage Frequency           | Frequency of specific function calls within ERC3643 contracts, such as transfer functions, compliance checks, or identity registry updates. |
 | Number of recovered tokens                  | -                                                                                                                                           |
 
-## 2.2 Data Exploration & Analysis
-
-### 2.2.1 Ethereum Ecosystem
+## 2.2 Ethereum Ecosystem
 
 | Method/Function   | Input |
 | -------- | ------- |
@@ -140,7 +138,8 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 **Tokeny T-REX Factory ENS Name:** erc3643.eth </br>
 **Tokeny T-REX Factory Contract address:** 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8</br></br>
 
-#### 2.2.1.1 Ethereum Mainnet
+### 2.2.1 Ethereum Mainnet
+
 </br>
 
 **Data source:** Ethereum Blockchain - BigQuery Public Dataset </br>
@@ -220,11 +219,13 @@ ORDER BY date desc;
 
 
 
-#### 2.2.1.2 Polygon
+### 2.2.2 Polygon
 
 **Data source:** Polygon Cryptocurrency - BigQuery Public Dataset </br>
 **Dataset ID:** public-data-finance.crypto_polygon
 
-### Avalanche Ecosystem
+## 2.3 Avalanche Ecosystem
+
+# 3. Building the ERC3643 Adoption Tracker
 
 # Acknowledgements
