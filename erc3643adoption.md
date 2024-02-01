@@ -12,10 +12,10 @@ Author: Anaïs Ofranc
  - [1. Introduction](#item-one)
  - [2. Data Exploration & Analysis](#item-two)
  - [2.1 Our Approach](#item-21)
- - [2.2 Ethereum Ecosystem](#item-two)
- - [2.2.1 Ethereum Mainnet](#item-two)
- - [2.2.2 Polygon](#item-two)
- - [2.3 Avalanche Ecosystem](#item-two)
+ - [2.2 Ethereum Ecosystem](#item-22)
+ - [2.2.1 Ethereum Mainnet](#item-221)
+ - [2.2.2 Polygon](#item-222)
+ - [2.3 Avalanche Ecosystem](#item-23)
  - [3. Building the ERC3643 Adoption Tracker](#item-three)
 
 <a id="item-one"></a>
@@ -106,6 +106,7 @@ _Step 3: Establish what to track_
 | Contract Function Usage Frequency           | Frequency of specific function calls within ERC3643 contracts, such as transfer functions, compliance checks, or identity registry updates. |
 | Number of recovered tokens                  | -                                                                                                                                           |
 
+<a id="item-22"></a>
 ## 2.2 Ethereum Ecosystem
 
 | Method/Function   | Input |
@@ -152,6 +153,7 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 **Tokeny T-REX Factory ENS Name:** erc3643.eth </br>
 **Tokeny T-REX Factory Contract address:** 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8</br></br>
 
+<a id="item-221"></a>
 ### 2.2.1 Ethereum Mainnet
 
 </br>
@@ -232,14 +234,16 @@ ORDER BY date desc;
 ```
 
 
-
+<a id="item-222"></a>
 ### 2.2.2 Polygon
 
 **Data source:** Polygon Cryptocurrency - BigQuery Public Dataset </br>
 **Dataset ID:** public-data-finance.crypto_polygon
 
+<a id="item-23"></a>
 ## 2.3 Avalanche Ecosystem
 
+<a id="item-three"></a>
 # 3. Building the ERC3643 Adoption Tracker
 
 # Acknowledgements
