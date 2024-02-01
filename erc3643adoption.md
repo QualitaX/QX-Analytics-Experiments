@@ -11,11 +11,11 @@ Author: Anaïs Ofranc
 
  - [1. Introduction](#item-one)
  - [2. Data Exploration & Analysis](#item-two)
- - [2.1 Our Approach](#item-two)
- - [2.2 Ethereum Ecosystem](#item-two)
- - [2.2.1 Ethereum Mainnet](#item-two)
- - [2.2.2 Polygon](#item-two)
- - [2.3 Avalanche Ecosystem](#item-two)
+ -   [2.1 Our Approach](#item-two)
+ -   [2.2 Ethereum Ecosystem](#item-two)
+ -     [2.2.1 Ethereum Mainnet](#item-two)
+ -     [2.2.2 Polygon](#item-two)
+ -   [2.3 Avalanche Ecosystem](#item-two)
  - [3. Building the ERC3643 Adoption Tracker](#item-three)
 
 
