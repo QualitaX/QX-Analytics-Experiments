@@ -195,7 +195,7 @@ input="0x608060405260006100176001600160e01b0361006616565b600080546001600160a01b0
 
 ```
 
-The above only return 1 transaction - What is the Tokeny: T-REX Servicing - see: 0x670ac37a1f420f3ea18b87aa06a5b7134b75578094d7fa93a3c4e6d10183e4b1 ?
+The above only return 1 transaction - see: 0x670ac37a1f420f3ea18b87aa06a5b7134b75578094d7fa93a3c4e6d10183e4b1 ?
 
 DO NOT RUN THE BELOW QUERY AS-IS  - EXPENSIVE AND NOT OPTIMIZED.
 ``` 
@@ -241,7 +241,16 @@ INNER JOIN Query1Results q1 ON e.transaction_hash = q1.transaction_hash
 
 
 
-_Step 3: abc_
+_Step 3: Total number of transactions on the Ethereum Mainnet from the Tokeny T-Rex Servicing_
+
+
+```
+
+SELECT COUNT(*) AS transaction_count
+FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
+WHERE from_address = '0x0C21F650d8e1B0Fbd276a2403B74C7F211212C048' 
+
+```
 
 
 ```
