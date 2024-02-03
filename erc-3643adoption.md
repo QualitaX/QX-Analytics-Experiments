@@ -220,14 +220,20 @@ _Step 2: Find all tokens deployed on the Ethereum Mainnet from the Tokeny T-Rex 
 
 <img src="https://i.imgur.com/0sY2SIL.png" alt="Tokens deployed by the Tokeny T-REX Factory on The Ethereum Mainnet" width="475"/>
 
-DO NOT RUN AS-IS: EXPENSIVE NOT OPTIMIZED
+To be tested and optimized:
+
 ```
 
-SELECT *
-FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
-WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8' 
-AND input
-="0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
+WITH Query1Results AS (
+  SELECT transaction_hash 
+  FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
+  WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8' 
+  AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
+)
+
+SELECT e.event_hash, e.event_signature, e.args 
+FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.decoded_events` e
+INNER JOIN Query1Results q1 ON e.transaction_hash = q1.transaction_hash
 
 
 ```
