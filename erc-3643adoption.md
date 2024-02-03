@@ -212,7 +212,10 @@ WHERE from_address = '0x0C21F650d8e1B0Fbd276a2403B74C7F211212C04'
 
 ```
 
+_Step 4: How much gas spent by Tokeny T-Rex Factory_
 
+
+_Step 5: How much gas spent by Tokeny T-Rex Servicing_
 
 _Step x: Find all contracts created on the Ethereum Mainnet from the Tokeny T-Rex Factory_
 
