@@ -175,7 +175,7 @@ AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
 
 ```
 
-As of 31 Jan 2024 - 30 token contracts were deployed by the Tokeny T-REX Factory on the Ethereum Mainnet. 
+As of 27 Dec 2023 - 30 token contracts were deployed by the Tokeny T-REX Factory on the Ethereum Mainnet. 
 
 
 _Step 2: What tokens were deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory_
