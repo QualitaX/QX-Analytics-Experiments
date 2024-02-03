@@ -164,7 +164,7 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 **Dataset ID:** bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
 
 
-_Step 1: Find the number of token contracts deployed on Ethereum Mainnet from the Tokeny T-Rex Factory_
+_Step 1: How many token contracts were deployed on Ethereum Mainnet from the Tokeny T-Rex Factory_
 
 ```
 
@@ -174,6 +174,34 @@ WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8'
 AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
 
 ```
+
+As of 31 Jan 2024 - 30 token contracts were deployed by the Tokeny T-REX Factory on the Ethereum Mainnet. 
+
+
+_Step 2: What tokens were deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory_
+
+To be re-tested and optimized:
+
+```
+
+WITH Query1Results AS (
+  SELECT transaction_hash 
+  FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
+  WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8' 
+  AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
+)
+
+SELECT e.event_hash, e.event_signature, e.args 
+FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.decoded_events` e
+INNER JOIN Query1Results q1 ON e.transaction_hash = q1.transaction_hash
+
+
+```
+
+<img src="https://i.imgur.com/0sY2SIL.png" alt="Tokens deployed by the Tokeny T-REX Factory on The Ethereum Mainnet" width="475"/>
+
+
+
 
 _Step x: Find all contracts created on the Ethereum Mainnet from the Tokeny T-Rex Factory_
 
@@ -228,28 +256,6 @@ Example: https://etherscan.io/address/0x6f31caae12ea25f8d5b69b93d4c57e1af7f62272
 
 ENS deployer transaction: 0x6f4fb82e843bce9ce1c01ff4efbf55ffa6dbe3c58ff32d8ba100d849048feff6
 
-
-_Step 2: Find all tokens deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory_
-
-<img src="https://i.imgur.com/0sY2SIL.png" alt="Tokens deployed by the Tokeny T-REX Factory on The Ethereum Mainnet" width="475"/>
-
-To be tested and optimized:
-
-```
-
-WITH Query1Results AS (
-  SELECT transaction_hash 
-  FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
-  WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8' 
-  AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
-)
-
-SELECT e.event_hash, e.event_signature, e.args 
-FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.decoded_events` e
-INNER JOIN Query1Results q1 ON e.transaction_hash = q1.transaction_hash
-
-
-```
 
 
 
