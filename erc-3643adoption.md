@@ -152,7 +152,8 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 </br></br>
 
 **Tokeny T-REX Factory ENS Name:** erc3643.eth </br>
-**Tokeny T-REX Factory Contract address:** 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8</br></br>
+**Tokeny T-REX Factory Contract address:** 0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8</br>
+**Tokeny T-REX Serving Contract address:** 0x0C21F650d8e1B0Fbd276a2403B74C7F211212C048</br></br>
 
 <a id="item-221"></a>
 ### 2.2.1 Ethereum Mainnet
