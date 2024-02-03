@@ -25,7 +25,7 @@ Tracking on-chain activities associated with the ERC-3643 standard can be a chal
 
 This dashboard aims at providing visibility and transparency into the adoption of ERC-3643. ERC-3643 is a standard a standard for EVM-based smart contracts, specifically designed for compliant, regulated and permissioned tokenized assets. It provides a standardized interface for tokenized assets, enabling more efficient and secure transactions.
 
-Do you want to know more about the ERC3643, read our deep dive: [link to deep dive](https://docs.google.com/document/d/1zgz97fYZo0Rhm5k83AZXcSZ_WRpDbYeKutpX69PX3wM/edit?usp=sharing).
+Do you want to know more about the ERC-3643, read our deep dive: [link to deep dive](https://docs.google.com/document/d/1zgz97fYZo0Rhm5k83AZXcSZ_WRpDbYeKutpX69PX3wM/edit?usp=sharing).
 
 ## Why Does Tracking ER-C3643 On-Chain activities Matter?
 
