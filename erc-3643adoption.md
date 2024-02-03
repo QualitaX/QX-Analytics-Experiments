@@ -21,9 +21,9 @@ Author: Anaïs Ofranc
 <a id="item-one"></a>
 # 1. Introduction
 
-Tracking on-chain activities associated with the ERC3643 standard can be a challenging task. The adoption of ERC standards, especially those related to regulated securities like ERC3643, might be less widespread and more specialized, making them a bit harder to find. Tracking the adoption requires a deep understanding of the underlying specifications and its requirements, the ability to process, unify and analyze large amounts of data across different EVM chains.
+Tracking on-chain activities associated with the ERC-3643 standard can be a challenging task. The adoption of ERC standards, especially those related to regulated securities like ERC-3643, might be less widespread and more specialized, making them a bit harder to find. Tracking the adoption requires a deep understanding of the underlying specifications and its requirements, the ability to process, unify and analyze large amounts of data across different EVM chains.
 
-This dashboard aims at providing visibility and transparency into the adoption of ERC3643. ERC3643 is a standard a standard for EVM-based smart contracts, specifically designed for compliant, regulated and permissioned tokenized assets. It provides a standardized interface for tokenized assets, enabling more efficient and secure transactions.
+This dashboard aims at providing visibility and transparency into the adoption of ERC-3643. ERC-3643 is a standard a standard for EVM-based smart contracts, specifically designed for compliant, regulated and permissioned tokenized assets. It provides a standardized interface for tokenized assets, enabling more efficient and secure transactions.
 
 Do you want to know more about the ERC3643, read our deep dive: [link to deep dive](https://docs.google.com/document/d/1zgz97fYZo0Rhm5k83AZXcSZ_WRpDbYeKutpX69PX3wM/edit?usp=sharing).
 
