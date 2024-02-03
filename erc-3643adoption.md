@@ -164,7 +164,18 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 **Dataset ID:** bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
 
 
-_Step 1: Find all contracts created on the Ethereum Mainnet from the Tokeny T-Rex Factory_
+_Step 1: Find the number of token contracts deployed on Ethereum Mainnet from the Tokeny T-Rex Factory_
+
+```
+
+SELECT COUNT(*) AS transaction_count
+FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
+WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8' 
+AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
+
+```
+
+_Step x: Find all contracts created on the Ethereum Mainnet from the Tokeny T-Rex Factory_
 
 As of 31 Jan 2024 - 39 contracts created by the Tokeny T-REX Factory on the Ethereum Mainnet. </br>
 </br>
