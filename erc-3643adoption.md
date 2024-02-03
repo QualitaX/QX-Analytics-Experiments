@@ -216,7 +216,7 @@ Example: https://etherscan.io/address/0x6f31caae12ea25f8d5b69b93d4c57e1af7f62272
 ENS deployer transaction: 0x6f4fb82e843bce9ce1c01ff4efbf55ffa6dbe3c58ff32d8ba100d849048feff6
 
 
-_Step 2: abc_
+_Step 2: Find all tokens deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory_
 
 ```
 
