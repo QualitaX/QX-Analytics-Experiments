@@ -201,6 +201,17 @@ INNER JOIN Query1Results q1 ON e.transaction_hash = q1.transaction_hash
 <img src="https://i.imgur.com/0sY2SIL.png" alt="Tokens deployed by the Tokeny T-REX Factory on The Ethereum Mainnet" width="475"/>
 
 
+_Step 3: Total number of transactions on the Ethereum Mainnet from the Tokeny T-Rex Servicing_
+
+
+```
+
+SELECT COUNT(*) AS transaction_count
+FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
+WHERE from_address = '0x0C21F650d8e1B0Fbd276a2403B74C7F211212C04' 
+
+```
+
 
 
 _Step x: Find all contracts created on the Ethereum Mainnet from the Tokeny T-Rex Factory_
@@ -256,19 +267,6 @@ Example: https://etherscan.io/address/0x6f31caae12ea25f8d5b69b93d4c57e1af7f62272
 
 ENS deployer transaction: 0x6f4fb82e843bce9ce1c01ff4efbf55ffa6dbe3c58ff32d8ba100d849048feff6
 
-
-
-
-_Step 3: Total number of transactions on the Ethereum Mainnet from the Tokeny T-Rex Servicing_
-
-
-```
-
-SELECT COUNT(*) AS transaction_count
-FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
-WHERE from_address = '0x0C21F650d8e1B0Fbd276a2403B74C7F211212C04' 
-
-```
 
 
 ```
