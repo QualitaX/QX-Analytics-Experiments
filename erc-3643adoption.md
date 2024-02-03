@@ -164,7 +164,7 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 **Dataset ID:** bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
 
 
-_Step 1: How many token contracts have been deployed on Ethereum Mainnet from the Tokeny T-Rex Factory_
+_Step 1: How many token contracts have been deployed on Ethereum Mainnet from the Tokeny T-Rex Factory?_
 
 ```
 
@@ -178,7 +178,7 @@ AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
 As of 27 Dec 2023 - 30 token contracts were deployed by the Tokeny T-REX Factory on the Ethereum Mainnet. 
 
 
-_Step 2: What tokens have been deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory_
+_Step 2: What tokens have been deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory?_
 
 To be re-tested and optimized:
 
@@ -201,7 +201,7 @@ INNER JOIN Query1Results q1 ON e.transaction_hash = q1.transaction_hash
 <img src="https://i.imgur.com/0sY2SIL.png" alt="Tokens deployed by the Tokeny T-REX Factory on The Ethereum Mainnet" width="475"/>
 
 
-_Step 3: Total number of transactions on the Ethereum Mainnet from the Tokeny T-Rex Servicing_
+_Step 3: How many transactions on the Ethereum Mainnet from the Tokeny T-Rex Servicing?_
 
 
 ```
