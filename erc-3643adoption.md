@@ -223,7 +223,7 @@ _Step 2: Find all tokens deployed on the Ethereum Mainnet from the Tokeny T-Rex 
 DO NOT RUN AS-IS: EXPENSIVE NOT OPTIMIZED
 ```
 
-SELECT * AS transaction_count
+SELECT *
 FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
 WHERE from_address = '0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8' 
 AND input
