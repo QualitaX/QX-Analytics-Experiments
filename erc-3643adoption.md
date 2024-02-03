@@ -1,5 +1,5 @@
 ---
-Title: "Tracking the Adoption of ERC3643"
+Title: "Tracking the Adoption of ERC-3643"
 Status: Draft v1
 Date: "2024-01-29"
 Author: Anaïs Ofranc
@@ -16,7 +16,7 @@ Author: Anaïs Ofranc
  - [2.2.1 Ethereum Mainnet](#item-221)
  - [2.2.2 Polygon](#item-222)
  - [2.3 Avalanche Ecosystem](#item-23)
- - [3. Building the ERC3643 Adoption Tracker](#item-three)
+ - [3. Building the ERC-3643 Adoption Tracker](#item-three)
 
 <a id="item-one"></a>
 # 1. Introduction
@@ -27,11 +27,11 @@ This dashboard aims at providing visibility and transparency into the adoption o
 
 Do you want to know more about the ERC3643, read our deep dive: [link to deep dive](https://docs.google.com/document/d/1zgz97fYZo0Rhm5k83AZXcSZ_WRpDbYeKutpX69PX3wM/edit?usp=sharing).
 
-## Why Does Tracking ERC3643 On-Chain activities Matter?
+## Why Does Tracking ER-C3643 On-Chain activities Matter?
 
-Tracking ERC3643 on-chain activities is essential for maintaining transparency, ensuring regulatory compliance, providing market insights, enhancing security, managing assets effectively, facilitating interoperability, and simplifying auditing and reporting processes.
+Tracking ERC-3643 on-chain activities is essential for maintaining transparency, ensuring regulatory compliance, providing market insights, enhancing security, managing assets effectively, facilitating interoperability, and simplifying auditing and reporting processes.
 
-The purpose of this dashboard is to focus on tracking the adoption of ERC3643 for the key reasons below:
+The purpose of this dashboard is to focus on tracking the adoption of ERC-3643 for the key reasons below:
 
 **Growth of Tokenized Asset Market:** The adoption of ERC-3643 can be a strong indicator of the growth and maturation of the market for tokenized assets. As more assets are tokenized using this standard, it reflects an increasing acceptance and utilization of blockchain technology for asset representation, potentially transforming traditional asset markets.
 
@@ -51,7 +51,7 @@ The purpose of this dashboard is to focus on tracking the adoption of ERC3643 fo
 
 _Step 1: Understand the IERC3643 interface and its events._
 
-The IERC3643 interface is a critical component of the ERC3643 standard, providing a structured and standardized approach for creating, managing and transferring security tokens. A primary focus of the IERC3643 interface is to ensure compliance with legal and regulatory requirements. If a token implements the IERC3643 interface, then the token is compliant with the ERC3643 standard.
+The IERC3643 interface is a critical component of the ERC-3643 standard, providing a structured and standardized approach for creating, managing and transferring security tokens. A primary focus of the IERC3643 interface is to ensure compliance with legal and regulatory requirements. If a token implements the IERC3643 interface, then the token is compliant with the ERC3643 standard.
 
 The IERC3643 interface includes the definition of various events such as ComplianceAdded, TokensFrozen, TokensUnfrozen, Paused, Unpaused, RecoverySuccess, and others. These events are used to log significant actions on the blockchain, providing an immutable record that enhances transparency and auditability..
 
@@ -77,7 +77,7 @@ _Step 2: Identify ERC3643-compliant tokens based on specific events and their si
 
 In EVM-based smart contracts, events can emit logs which are recorded on the blockchain. These logs often include "topics" used for indexing purposes. The first topic (topic0) usually represents the hash of the event signature, while subsequent topics (like topic1) store indexed event parameters. These indexed topics help in efficiently querying and filtering log data for specific events or conditions, making it easier to track and analyze on-chain activities.
 
-False Positives: Just because a contract emits a certain event, it doesn't guarantee full compliance with ERC3643. Further verification is necessary.
+False Positives: Just because a contract emits a certain event, it doesn't guarantee full compliance with ERC-3643. Further verification is necessary.
 
 | Event Name                                                                                      | Event Signature Hash (Topic0)                                      |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
