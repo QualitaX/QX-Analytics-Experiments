@@ -218,6 +218,12 @@ ENS deployer transaction: 0x6f4fb82e843bce9ce1c01ff4efbf55ffa6dbe3c58ff32d8ba100
 
 _Step 2: Find all tokens deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory_
 
+<img src="https://i.imgur.com/0sY2SIL.png" alt="Tokens deployed by the Tokeny T-REX Factory on The Ethereum Mainnet" width="475"/>
+
+
+_Step 3: abc_
+
+
 ```
 
 SELECT date(block_timestamp) as date, address, data
