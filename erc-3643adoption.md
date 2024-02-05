@@ -178,6 +178,19 @@ AND input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1"
 
 ```
 
+------
+
+```
+
+SELECT DATETIME_TRUNC(DATETIME (block_timestamp), MONTH) as truncated, COUNT(*) AS transactions_count,
+FROM `bigquery-public-data.goog_blockchain_ethereum_mainnet_us.transactions` 
+WHERE from_address = "0xfe1bd11cd131c02f31a8b213651a8358fa1ab7a8" AND
+input = "0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1" AND 
+to_address IS NULL
+GROUP BY truncated
+ORDER BY truncated desc;
+
+```
 
 
 _Step 2: What tokens have been deployed on the Ethereum Mainnet from the Tokeny T-Rex Factory?_
