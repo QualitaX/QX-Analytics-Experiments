@@ -84,6 +84,10 @@ In EVM-based smart contracts, events can emit logs which are recorded on the blo
 
 False Positives: Just because a contract emits a certain event, it doesn't guarantee full compliance with ERC-3643. Further verification is necessary.
 
+The ERC-3643 standard requires that all compliant tokens emit an UpdatedTokenInformation event at initial deployment, capturing critical metadata about the token at inception. If any of this information is later modified, the ERC-3643 token contract should emit an additional UpdatedTokenInformation event with the updated details. However, follow-on update events should not be counted as new, unique ERC-3643 tokens, as they represent changes to an existing contract.
+
+In addition, to promote adoption and ensure conformance, the ERC-3643 Association will soon deploy an on-chain factory contract. This factory contract, available open-source at [here](https://github.com/TokenySolutions/T-REX/blob/main/contracts/factory/TREXFactory.sol), will deploy tokens using the Tokeny T-REX standardized suite of contracts and emit a TREXSuiteDeployed event for each new token creation. Stakeholders can easily spin up compliant ERC-3643 tokens by interacting with this factory contract, while our analytics will monitor for the resulting deployment events to track growth.
+
 | Event Name                                                                                      | Event Signature Hash (Topic0)                                      |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
 | ComplianceAdded                                                                                 | 0x7f3a888862559648ec01d97deb7b5012bff86dc91e654a1de397170db40e35b6 |
