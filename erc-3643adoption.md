@@ -135,11 +135,6 @@ Table: ethereum.logs</br>
 Source: Ethereum Blockchain - BigQuery Public Dataset </br>
 Dataset ID: bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
 
-
-_Step 1: _
-
-
-
 <a id="item-222"></a>
 ### 2.2.2 Polygon
 
