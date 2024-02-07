@@ -165,9 +165,10 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 </br>
 
 **Data Source:**
+Data Source: Dune Analytics 
+Data Table: ethereum.logs
 
 **Alternative Data Source:**
-
 Data source: Ethereum Blockchain - BigQuery Public Dataset </br>
 Dataset ID: bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
 
@@ -181,14 +182,19 @@ _Step 1: _
 
 
 **Data Source:**
+Data Source: Dune Analytics 
+Data Table: polygon.logs
 
 **Alternative Data Source:**
-
 Data source: Polygon Cryptocurrency - BigQuery Public Dataset </br>
 Dataset ID: public-data-finance.crypto_polygon
 
 <a id="item-23"></a>
 ## 2.3 Avalanche Ecosystem
+
+**Data Source:**
+Data Source: Dune Analytics 
+Data Table: avalanche_c.logs
 
 <a id="item-three"></a>
 # 3. Building the ERC-3643 Adoption Tracker
