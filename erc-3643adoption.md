@@ -165,8 +165,8 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 </br>
 
 **Data Source:**
-Data Source: Dune Analytics 
-Data Table: ethereum.logs
+Data Source: Dune Analytics </br>
+Data Table: ethereum.logs</br>
 
 **Alternative Data Source:**
 Data source: Ethereum Blockchain - BigQuery Public Dataset </br>
@@ -182,7 +182,7 @@ _Step 1: _
 
 
 **Data Source:**
-Data Source: Dune Analytics 
+Data Source: Dune Analytics </br>
 Data Table: polygon.logs
 
 **Alternative Data Source:**
@@ -193,7 +193,7 @@ Dataset ID: public-data-finance.crypto_polygon
 ## 2.3 Avalanche Ecosystem
 
 **Data Source:**
-Data Source: Dune Analytics 
+Data Source: Dune Analytics </br>
 Data Table: avalanche_c.logs
 
 <a id="item-three"></a>
