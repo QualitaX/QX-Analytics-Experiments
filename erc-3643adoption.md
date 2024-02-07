@@ -2,7 +2,7 @@
 Title: "Tracking the Adoption of ERC-3643"
 Status: Draft v1
 Date: "2024-01-29"
-Author: Anaïs Ofranc
+Authors: Anaïs Ofranc, Juwon Bak
 ---
 
 <!--  **Sponsored by xxx**🟢✨ -->
