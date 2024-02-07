@@ -113,7 +113,7 @@ _Step 3: Establish what to track_
 | N# of permissionned token contracts deployed from the Tokeny T-Rex Factory per month by network.      | Monthly trend of token contracts deployed on the Ethereum Mainnet, Polygon Mainnet and Avalanche.                         |
 | N# of permissionned token contracts deployed from the Tokeny T-Rex Factory per month by industry.          | Monthly trends of token contracts deployed on the Ethereum Mainnet, Polygon Mainnet and Avalanche by industry.                                  |
 | List of permissionned token contracts deployed from Tokeny TREX Factory by network.          | List of permissionned  tokens deployed on the Ethereum Mainnet, Polygon Mainnet and Avalanche.                                      |
-| N# of permissionned token contracts deployed from the Tokeny T-Rex Factory.             | Count of token contracts on the Ethereum Mainnet, Polygon Mainnet and Avalanche that are verified to implement the ERC3643 standard.                                       |
+| -            | -                                       |
 | Volume of transactions                      | The total number and value of transactions interacting with ERC3643-compliant contracts.                                                    |
 | Active Users or Wallets                     | Number of unique wallets that have interacted with ERC3643 contracts over a given period.                                                   |
 | Growth Rate of ERC3643 Contract Deployments | Rate at which new ERC3643-compliant contracts are being deployed over time.                                                                 |
