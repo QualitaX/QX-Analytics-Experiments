@@ -29,6 +29,8 @@ ERC-3643 is a standard a standard for EVM-based smart contracts, specifically de
 
 To know more about the ERC-3643 standard, read our deep dive: [link to deep dive](https://docs.google.com/document/d/1zgz97fYZo0Rhm5k83AZXcSZ_WRpDbYeKutpX69PX3wM/edit?usp=sharing).
 
+The output of the work described below is the [ERC-3643 Adoption tracker](https://dune.com/qualitax/erc-3643-adoption-tracker/5da8cd48-afac-4388-8585-31c439de5057).
+
 ## Why Does Tracking ER-C3643 On-Chain activities Matter?
 
 Tracking ERC-3643 on-chain activities is essential for maintaining transparency, ensuring regulatory compliance, providing market insights, enhancing security, managing assets effectively, facilitating interoperability, and simplifying auditing and reporting processes.
@@ -333,5 +335,7 @@ ORDER BY date desc;
 
 <a id="item-three"></a>
 # 3. Building the ERC3643 Adoption Tracker
+
+QualitaX has built its own ERC-3643 Dataset which includes enriched blockchain data in order to populate the ERC-3643 Adoption Traxker
 
 # Acknowledgements
