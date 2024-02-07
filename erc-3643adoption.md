@@ -342,4 +342,14 @@ The ERC-3643 adoption dashboard utilizes an internally-developed enriched datase
 
 The dataset is available publicly: dune.qualitax.dataset_qx_erc3643_trexfactory_data_050224
 
+## 3.2 Data Enrichment Process
+
+
+## 3.3 Dune Analytics Dashboard PoC
+
+To enable rapid prototyping and iteration, we initially built a proof-of-concept (PoC) version of the ERC-3643 adoption dashboard using Dune Analytics. Leveraging Dune's no-code environment allowed us to deploy an operational dashboard with at zero additional cost. The ease-of-use and flexibility provided by Dune facilitated quick validation of the dashboard concept, dimensions, and initial analytic use cases. Once proven through the PoC, we deployed the custom dashboard on our own infrastructure.
+
+Dune Analytics Dashboard: [ERC-3643 Adoption tracker](https://dune.com/qualitax/erc-3643-adoption-tracker/5da8cd48-afac-4388-8585-31c439de5057).
+
+
 # Acknowledgements
