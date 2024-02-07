@@ -164,8 +164,12 @@ THIS HAS TO BE REVIEWED, INCLUDE INACCURACIES
 
 </br>
 
-**Data source:** Ethereum Blockchain - BigQuery Public Dataset </br>
-**Dataset ID:** bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
+**Data Source:**
+
+**Alternative Data Source:**
+
+Data source: Ethereum Blockchain - BigQuery Public Dataset </br>
+Dataset ID: bigquery-public-data.goog_blockchain_ethereum_mainnet_us </br></br>
 
 
 _Step 1: _
@@ -175,8 +179,13 @@ _Step 1: _
 <a id="item-222"></a>
 ### 2.2.2 Polygon
 
-**Data source:** Polygon Cryptocurrency - BigQuery Public Dataset </br>
-**Dataset ID:** public-data-finance.crypto_polygon
+
+**Data Source:**
+
+**Alternative Data Source:**
+
+Data source: Polygon Cryptocurrency - BigQuery Public Dataset </br>
+Dataset ID: public-data-finance.crypto_polygon
 
 <a id="item-23"></a>
 ## 2.3 Avalanche Ecosystem
