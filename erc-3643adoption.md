@@ -334,7 +334,7 @@ ORDER BY date desc;
 ## 2.3 Avalanche Ecosystem
 
 <a id="item-three"></a>
-# 3. Building the ERC3643 Adoption Tracker
+# 3. Building the ERC-3643 Adoption Tracker
 
 ## 3.1 Dataset
 
