@@ -336,6 +336,8 @@ ORDER BY date desc;
 <a id="item-three"></a>
 # 3. Building the ERC3643 Adoption Tracker
 
+3.1 Dataset
+
 The ERC-3643 adoption dashboard utilizes an internally-developed enriched dataset to allow for more performant and cost-effective analytics. Rather than relying solely on expensive third-party datasets, we have supplemented the base data with additional qualitative attributes such as industry categorization. By enhancing the data in-house to align closely with the ERC-3643 Association analytic needs, we have optimized the dashboard to reduce reliance on external data sources, improve query speeds and responsiveness, and contain costs.
 
 The dataset is available publicly: dune.qualitax.dataset_qx_erc3643_trexfactory_data_050224
