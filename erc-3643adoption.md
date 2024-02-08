@@ -113,6 +113,9 @@ _Step 3: Establish what to track_
 | N# of permissionned token contracts deployed from the Tokeny T-Rex Factory per month by network.      | Monthly trend of token contracts deployed on the Ethereum Mainnet, Polygon Mainnet and Avalanche.                         |
 | N# of permissionned token contracts deployed from the Tokeny T-Rex Factory per month by industry.          | Monthly trends of token contracts deployed on the Ethereum Mainnet, Polygon Mainnet and Avalanche by industry.                                  |
 | List of permissionned token contracts deployed from Tokeny TREX Factory by network.          | List of permissionned  tokens deployed on the Ethereum Mainnet, Polygon Mainnet and Avalanche.                                      |
+| N# Whitelisted Investors  | N# Total Whitelisted Investors                             |
+| N# Whitelisted Investors by Network  | N# Total Whitelisted Investors  by Network                     |
+| N# Whitelisted Investors by Token  | N# Whitelisted Investors by Token                     |
 | Total Gas by network        | Total Gas spent by network                                  |
 | Volume of transactions                      | The total number and value of transactions interacting with ERC3643-compliant contracts.                                                    |
 | Active Users or Wallets                     | Number of unique wallets that have interacted with ERC3643 contracts over a given period.                                                   |
