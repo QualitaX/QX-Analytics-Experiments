@@ -1,0 +1,52 @@
+SELECT
+    q1.tokenAddress,
+    q1.IdentityRegistry,
+    q2._newName,
+    q3.investorCount
+FROM
+    (
+        SELECT
+            TRY_CAST (TO_HEX (contract_address) AS VARCHAR) AS tokenAddress,
+            TRY_CAST (SUBSTR (TO_HEX (topic1), 25) AS VARCHAR) AS IdentityRegistry
+        FROM
+            polygon.logs
+        WHERE
+            topic0 = FROM_HEX (
+                'd2be862d755bca7e0d39772b2cab3a5578da9c285f69199f4c063c2294a7f36c'
+            )
+            AND tx_from = FROM_HEX ('fe1bd11cd131c02f31a8b213651a8358fa1ab7a8')
+            AND tx_to IS NULL
+    ) AS q1
+    LEFT JOIN (
+        SELECT
+            TRY_CAST (TO_HEX (contract_address) AS VARCHAR) AS tokenAddress,
+            SUBSTR (data, 192, 18) AS _newName
+        FROM
+            polygon.logs
+        WHERE
+            topic0 = FROM_HEX (
+                '6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1'
+            )
+            AND (
+                tx_from = FROM_HEX ('fe1bd11cd131c02f31a8b213651a8358fa1ab7a8')
+                OR tx_from = FROM_HEX ('0C21F650d8e1B0Fbd276a2403B74C7F211212C04')
+            )
+    ) AS q2 ON q1.tokenAddress = q2.tokenAddress
+    LEFT JOIN (
+        SELECT
+            TRY_CAST (TO_HEX (contract_address) AS VARCHAR) AS IdentityRegistry,
+            COUNT(DISTINCT topic1) AS investorCount
+        FROM
+            polygon.logs
+        WHERE
+            topic0 = FROM_HEX (
+                '6ae73635c50d24a45af6fbd5e016ac4bed179addbc8bf24e04ff0fcc6d33af19'
+            )
+            AND NOT topic1 IS NULL
+            AND (
+                tx_from = FROM_HEX ('fe1bd11cd131c02f31a8b213651a8358fa1ab7a8')
+                OR tx_from = FROM_HEX ('0C21F650d8e1B0Fbd276a2403B74C7F211212C04')
+            )
+        GROUP BY
+            contract_address
+    ) AS q3 ON q1.IdentityRegistry = q3.IdentityRegistry

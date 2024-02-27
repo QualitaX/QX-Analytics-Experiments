@@ -1,0 +1,54 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Firebase:Emulators2",
+      "port": 9229,
+      "restart": true,
+      "skipFiles": ["<node_internals>/**"],
+      "preLaunchTask": "start firebase emulator",
+      "postDebugTask": "stop firebase emulator"
+    },
+    {
+      "name": "Firebase:Emulators1",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "firebase emulators:start --import ${workspaceFolder}/.emulators --export-on-exit ${workspaceFolder}/.emulators",
+      "cwd": "${workspaceFolder}/frontend",
+      "serverReadyAction": {
+        "action": "debugWithChrome",
+        "pattern": "All emulators ready",
+        "uriFormat": "http://localhost:4000"
+      }
+    },
+    {
+      "name": "Next.js:server-side",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev"
+    },
+    {
+      "name": "Next.js:client-side",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000"
+    },
+    {
+      "name": "Next.js:full-stack",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}/frontend",
+      "serverReadyAction": {
+        "pattern": "- Local:.+(https?://.+)",
+        "uriFormat": "%s",
+        "action": "debugWithChrome"
+      }
+    }
+  ]
+}

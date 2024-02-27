@@ -1,0 +1,15 @@
+SELECT
+    COUNT(DISTINCT topic1) AS investorCount
+FROM
+    polygon.logs
+WHERE
+    topic0 = FROM_HEX (
+        '6ae73635c50d24a45af6fbd5e016ac4bed179addbc8bf24e04ff0fcc6d33af19'
+    )
+    AND NOT topic1 IS NULL
+    AND (
+        tx_from = FROM_HEX ('fe1bd11cd131c02f31a8b213651a8358fa1ab7a8')
+        OR tx_from = FROM_HEX ('0C21F650d8e1B0Fbd276a2403B74C7F211212C04')
+    )
+    AND block_time >= TRY_CAST ('2024-01-05 00:00:00.000 UTC' AS TIMESTAMP)
+    AND block_time < TRY_CAST ('2024-02-06 00:00:00.000 UTC' AS TIMESTAMP)
