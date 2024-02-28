@@ -31,7 +31,7 @@ To know more about the ERC-3643 standard, read our deep dive: [link to deep dive
 
 The output of the work described below is the [ERC-3643 Adoption tracker](https://dune.com/qualitax/erc-3643-adoption-tracker/5da8cd48-afac-4388-8585-31c439de5057).
 
-## Why Does Tracking ER-C3643 On-Chain activities Matter?
+## Why Does Tracking ERC-3643 On-Chain activities Matter?
 
 Tracking ERC-3643 on-chain activities is essential for maintaining transparency, ensuring regulatory compliance, providing market insights, enhancing security, managing assets effectively, facilitating interoperability, and simplifying auditing and reporting processes.
 
