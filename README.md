@@ -4,7 +4,7 @@
 
 QX Analytics application based on NextJs and Firebase
 
-## Introducting The Project
+## Introducing The Project
 
 Digital Assets Analytics by QualitaX
 
