@@ -1,18 +1,18 @@
 <h1 align="center">
-  QX Analytics App
+  QX Analytics Application
 </h1>
 
-QX Analytics app based on NextJs and Firebase
+QX Analytics application based on NextJs and Firebase
 
 ## Introducting The Project
 
-Analytic dashboard for blockchain and crypto researched by QualitaX
+Digital Assets Analytics by QualitaX
 
 ## Documentation
 
-### Researches
+### Research
 
-- ERC-3643: The ERC3643 Adoption Tracker
+- ERC-3643 Standard - Analytics
 
 ### Frontend
 
