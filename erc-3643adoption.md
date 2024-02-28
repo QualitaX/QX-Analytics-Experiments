@@ -98,6 +98,7 @@ In addition, to promote adoption and ensure conformance, the ERC-3643 Associatio
 | UpdatedTokenInformation(string,string,string)                                                   | 0xe7be9e386976ab29f9c6b6277a4bb92fe29d2ce986625e4bd063d90b5b4e9869 |
 | UpdatedTokenInformation(string,string,uint8,string,address)                                     | 0x6a1105ac8148a3c319adbc369f9072573e8a11d3a3d195e067e7c40767ec54d1 |
 |IdentityRegistered (address,address)                                   |  0x6ae73635c50d24a45af6fbd5e016ac4bed179addbc8bf24e04ff0fcc6d33af19 |
+|Transfer (address,address, uint256)                                   |  0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef|
 | RecoverySuccess(address \_lostWallet, address \_newWallet, address \_investorOnchainID);        | -                                                                  |
 | AddressFrozen(address indexed \_userAddress, bool indexed \_isFrozen, address indexed \_owner); | -                                                                  |
 | TokensFrozen(address indexed \_userAddress, uint256 \_amount);                                  | -                                                                  |
