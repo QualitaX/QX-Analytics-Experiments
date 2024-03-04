@@ -1,12 +1,12 @@
 <h1 align="center">
-  QX Analytics Application
+  QX Analytics - Experiments
 </h1>
 
 QX Analytics application based on NextJs and Firebase
 
 ## Introducing The Project
 
-Digital Assets Analytics by QualitaX
+Digital Assets Analytics (Experiments) by QualitaX
 
 ## Documentation
 
