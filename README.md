@@ -2,7 +2,7 @@
   QX Analytics - Experiments
 </h1>
 
-QX Analytics application based on NextJs and Firebase
+QX Analytics experiments using NextJs and Firebase
 
 ## Introducing The Project
 
@@ -12,7 +12,8 @@ Digital Assets Analytics (Experiments) by QualitaX
 
 ### Research
 
-- ERC-3643 Standard - Analytics
+- ERC-3643 Standard
+- Polymesh
 
 ### Frontend
 
