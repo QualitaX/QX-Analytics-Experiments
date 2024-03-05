@@ -160,11 +160,6 @@ WHERE
 
 
 
-_Step 3: Establish what metrics to track_
-
-
-
-
 <a id="item-22"></a>
 ## 2.2 Exploring assets on Polymesh
 
@@ -766,11 +761,11 @@ LIMIT 1;
 
 
 <a id="item-221"></a>
-### 2.2.1 Ethereum Mainnet
+### 2.2.1 
 
 </br>
 
-## 3.4 Dasboard
+## 3.4 Dashboard
 
 
 # Acknowledgements
